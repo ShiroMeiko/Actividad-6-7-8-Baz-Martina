@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    background-color: rgb(42, 42, 42);
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "lato";
+}
+
+.caja {
+    background-color: rgb(0, 0, 0);
+    padding: 1em;
+    color: white;
+    font-size: larger;
+}
+
+.imagen1 {
+    width: 190px;
+    height: 260px;
+    float: left;
+    border-color: white;
+    border-width: 10px;
+    border-style: double;
+    margin: 10px;
+    margin-top: -190px;
+    margin-left: 20px;
+}
+
+.footer {
+    height: 50px;
+    line-height: 50px;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    position: bottom;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.subtitulo {
+    font-size: large;
+    color: white;
+}
+
+.texto {
+    margin-left: 15px;
+    font-size: 25px;
+    color: rgb(224, 224, 224);
+    margin: 30px;
+}
+
+p {
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+li {
+    color: white;
+    margin-left: 200px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 600px;
+}
+
+.carousel-inner {
+    margin-top: 30px;
+    height: 600px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.botona {
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin: 50px;
+}
